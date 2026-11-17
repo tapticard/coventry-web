@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es-DO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto · Coventry | Estamos para ayudarte</title>
+<meta name="description" content="Escríbenos por WhatsApp o por el formulario y encuentra dónde comprar Coventry en tu provincia.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="assets/logos/favicon.png">
+<link rel="apple-touch-icon" href="assets/logos/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a class="brand" href="index.html" aria-label="Coventry, ir al inicio"><img src="assets/logos/coventry-logo-oscuro.png" alt="Coventry" width="109" height="34"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span></button>
+    <nav class="nav" id="menu" aria-label="Principal">
+      <a class="nav__link" href="index.html">Inicio</a>
+      <a class="nav__link" href="productos.html">Productos</a>
+      <a class="nav__link" href="quienes-somos.html">Quiénes somos</a>
+      <a class="nav__link" href="contacto.html" aria-current="page">Contacto</a>
+      <a class="btn btn--yellow btn--sm" href="distribuidores.html">Distribuidores</a>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+
+<section class="page-hero" aria-labelledby="page-title">
+  <div class="container">
+    <ol class="crumbs"><li><a href="index.html">Inicio</a></li><li>Contacto</li></ol>
+    <h1 class="h1" id="page-title">Hablemos <span class="hl">claro</span></h1>
+    <p class="lead">¿Preguntas sobre un producto o dónde comprarlo? Te respondemos rápido y sin complicaciones.</p>
+  </div>
+</section>
+
+<!-- FORMULARIO · Objetivo: captar consultas y solicitudes de distribuidores -->
+<section class="section" id="escribenos" aria-labelledby="form-title">
+  <div class="container contact">
+    <form class="form-card" data-form novalidate>
+      <h2 class="h2" id="form-title" style="margin-bottom:8px">Escríbenos</h2>
+      <p class="muted" style="margin-bottom:22px">¿Tienes una pregunta sobre un producto, una garantía o dónde comprar? Te respondemos rápido.</p>
+
+      <div class="fields">
+        <div class="field"><label for="f-nombre">Nombre</label><input id="f-nombre" name="nombre" autocomplete="name" required></div>
+        <div class="field"><label for="f-tel">Teléfono o WhatsApp</label><input id="f-tel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="809 000 0000" required></div>
+
+        <div class="field"><label for="f-email">Correo <span class="opt">(opcional)</span></label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+        <div class="field"><label for="f-prov">Provincia</label>
+          <select id="f-prov" name="provincia" required>
+            <option value="">Elige tu provincia</option>
+            <option>Azua</option>
+            <option>Bahoruco</option>
+            <option>Barahona</option>
+            <option>Dajabón</option>
+            <option>Distrito Nacional</option>
+            <option>Duarte</option>
+            <option>El Seibo</option>
+            <option>Elías Piña</option>
+            <option>Espaillat</option>
+            <option>Hato Mayor</option>
+            <option>Hermanas Mirabal</option>
+            <option>Independencia</option>
+            <option>La Altagracia</option>
+            <option>La Romana</option>
+            <option>La Vega</option>
+            <option>María Trinidad Sánchez</option>
+            <option>Monseñor Nouel</option>
+            <option>Monte Cristi</option>
+            <option>Monte Plata</option>
+            <option>Pedernales</option>
+            <option>Peravia</option>
+            <option>Puerto Plata</option>
+            <option>Samaná</option>
+            <option>San Cristóbal</option>
+            <option>San José de Ocoa</option>
+            <option>San Juan</option>
+            <option>San Pedro de Macorís</option>
+            <option>Sánchez Ramírez</option>
+            <option>Santiago</option>
+            <option>Santiago Rodríguez</option>
+            <option>Santo Domingo</option>
+            <option>Valverde</option>
+          </select>
+        </div>
+        <div class="field field--full"><label for="f-prod">¿Qué producto te interesa? <span class="opt">(opcional)</span></label>
+          <select id="f-prod" name="producto">
+            <option value="">Elige una opción</option>
+            <option>Air Fryer XL</option>
+            <option>Cocina</option>
+            <option>Estufas eléctricas</option>
+            <option>Estufas de gas</option>
+            <option>Cuidado de la ropa</option>
+          </select>
+        </div>
+        <div class="field field--full"><label for="f-msg">Mensaje</label><textarea id="f-msg" name="mensaje" placeholder="Escribe aquí tu pregunta"></textarea></div>
+      </div>
+      <button class="btn btn--black btn--block mt-l" type="submit">Enviar mensaje <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="form-ok" tabindex="-1" role="status">¡Gracias! Recibimos tu mensaje y te contactamos pronto.</p>
+      <p class="form-note">Usamos tus datos solo para responderte.</p>
+    </form>
+
+    <aside class="side-stack" aria-label="Otras formas de contacto">
+      <div class="side-card side-card--wa">
+        <h3>¿Prefieres <span class="hl">WhatsApp?</span></h3>
+        <p class="muted">Es la forma más rápida. Pregúntanos por un producto, un precio o una tienda cerca de ti.</p>
+        <a class="btn btn--wa btn--block" href="https://wa.me/?text=Hola%20Coventry%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.6-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.5c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.4z"/></svg> Escribir por WhatsApp</a>
+      </div>
+      <div class="side-card">
+        <h3>Síguenos</h3>
+        <p class="muted">Recetas, trucos y novedades para tu casa.</p>
+        <div class="socials">
+          <a class="social" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> Instagram</a>
+          <a class="social" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v7h4v-7H17l.5-4h-4V9c0-.6.4-1 1-1z"/></svg> Facebook</a>
+          <a class="social" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.9 3.9 4.2 4.1v3.4c-1.6 0-3-.5-4.2-1.3v6.3c0 3.4-2.6 5.8-5.8 5.8S5 18.9 5 15.6s2.8-6 6.4-5.6v3.5c-1.6-.4-3 .6-3 2.1 0 1.3 1 2.3 2.3 2.3 1.4 0 2.4-1 2.4-2.6V3z"/></svg> TikTok</a>
+        </div>
+      </div>
+      <div class="side-card" style="background:var(--yellow)">
+        <h3>¿Tienes una tienda?</h3>
+        <p>Conoce cómo ser distribuidor Coventry y envía tu solicitud.</p>
+        <a class="btn btn--black btn--block" href="distribuidores.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9l1.5-5h13L20 9M4 9v11h16V9M4 9h16M9 20v-6h6v6"/></svg> Ser distribuidor</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ¿DÓNDE COMPRAR? · Objetivo: llevar al cliente a la tienda -->
+<section class="section section--paper" id="donde-comprar" aria-labelledby="find-title">
+  <div class="container finder">
+    <div>
+      <p class="eyebrow">¿Dónde comprar?</p>
+      <h2 class="h2" id="find-title">Encuentra Coventry <span class="hl-bg">cerca de ti</span></h2>
+      <p class="lead muted" style="margin-top:16px">Estamos en tiendas y distribuidores de todo el país. Elige tu provincia y te mostramos dónde comprar.</p>
+      <form class="finder__form" data-finder>
+        <div class="field">
+          <label class="sr-only" for="f-find">Provincia</label>
+          <select id="f-find" name="provincia">
+            <option value="">Elige tu provincia</option>
+            <option>Azua</option>
+            <option>Bahoruco</option>
+            <option>Barahona</option>
+            <option>Dajabón</option>
+            <option>Distrito Nacional</option>
+            <option>Duarte</option>
+            <option>El Seibo</option>
+            <option>Elías Piña</option>
+            <option>Espaillat</option>
+            <option>Hato Mayor</option>
+            <option>Hermanas Mirabal</option>
+            <option>Independencia</option>
+            <option>La Altagracia</option>
+            <option>La Romana</option>
+            <option>La Vega</option>
+            <option>María Trinidad Sánchez</option>
+            <option>Monseñor Nouel</option>
+            <option>Monte Cristi</option>
+            <option>Monte Plata</option>
+            <option>Pedernales</option>
+            <option>Peravia</option>
+            <option>Puerto Plata</option>
+            <option>Samaná</option>
+            <option>San Cristóbal</option>
+            <option>San José de Ocoa</option>
+            <option>San Juan</option>
+            <option>San Pedro de Macorís</option>
+            <option>Sánchez Ramírez</option>
+            <option>Santiago</option>
+            <option>Santiago Rodríguez</option>
+            <option>Santo Domingo</option>
+            <option>Valverde</option>
+          </select>
+        </div>
+        <button class="btn btn--black" type="submit">Buscar</button>
+      </form>
+      <p class="muted" style="margin-top:16px;font-size:.9rem">¿No aparece tu zona? <a href="https://wa.me/?text=Hola%20Coventry%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener"><strong>Escríbenos por WhatsApp</strong></a> y te decimos la tienda más cercana.</p>
+    </div>
+    <div class="finder__result" aria-live="polite">
+      <div class="ph ph--16x9 finder__map" role="img" aria-label="Foto pendiente: Mapa de tiendas por provincia"><span class="ph__label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Mapa de tiendas por provincia</span></span></div>
+      <div class="finder__list">
+        <h3 data-finder-title>Tiendas en tu provincia</h3>
+        <p class="muted" style="font-size:.88rem">Ejemplo de cómo se verá la lista cuando se conecte el directorio de tiendas.</p>
+        <div class="store-row"><div class="ph"></div><div><span class="bar bar--md"></span><span class="bar bar--sm"></span></div></div>
+        <div class="store-row"><div class="ph"></div><div><span class="bar bar--md"></span><span class="bar bar--sm"></span></div></div>
+        <div class="store-row"><div class="ph"></div><div><span class="bar bar--md"></span><span class="bar bar--sm"></span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-cta">
+      <h2 class="h2">¿Tienes una tienda? <span class="hl">Vende Coventry.</span></h2>
+      <div class="btn-row">
+        <a class="btn btn--yellow" href="distribuidores.html">Quiero vender Coventry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--outline" href="https://wa.me/?text=Hola%20Coventry%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.6-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.5c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.4z"/></svg> Escríbenos</a>
+      </div>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logos/coventry-logo-oscuro.png" alt="Coventry" width="200" height="62">
+        <p>Precios justos para que la calidad sea para todos. Lo que hace tu casa un hogar.</p>
+        <div class="socials socials--dark">
+          <a class="social" href="#" aria-label="Instagram de Coventry"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a class="social" href="#" aria-label="Facebook de Coventry"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v7h4v-7H17l.5-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+          <a class="social" href="#" aria-label="TikTok de Coventry"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.9 3.9 4.2 4.1v3.4c-1.6 0-3-.5-4.2-1.3v6.3c0 3.4-2.6 5.8-5.8 5.8S5 18.9 5 15.6s2.8-6 6.4-5.6v3.5c-1.6-.4-3 .6-3 2.1 0 1.3 1 2.3 2.3 2.3 1.4 0 2.4-1 2.4-2.6V3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Productos</h4>
+        <ul>
+          <li><a href="productos.html#cocina">Cocina</a></li>
+          <li><a href="productos.html#estufas-electricas">Estufas eléctricas</a></li>
+          <li><a href="productos.html#estufas-gas">Estufas de gas</a></li>
+          <li><a href="productos.html#ropa">Cuidado de la ropa</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Coventry</h4>
+        <ul>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="contacto.html#donde-comprar">¿Dónde comprar?</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Distribuidores</h4>
+        <ul>
+          <li><a href="distribuidores.html">Vende Coventry</a></li>
+          <li><a href="distribuidores.html#solicitud">Solicitud de distribuidor</a></li>
+          <li><a href="https://wa.me/?text=Hola%20Coventry%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">WhatsApp comercial</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>© <span data-year>2026</span> Coventry. República Dominicana.</span>
+      <span><em>Más que electrodomésticos.</em></span>
+    </div>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/?text=Hola%20Coventry%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.6-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.5c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.4z"/></svg><span>WhatsApp</span></a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
